@@ -8,15 +8,16 @@
     <title>BETMYPRESENCE.COM</title>
 </head>
     <body>
-<?php
+    <h1>Bet my presence.com</h1>
+    <div class="col-md-6 col-md-offset-3">
+        <?php
 
-$db = new mysqli( 'localhost' , 'root' , '' , 'tbontb' );
-if(!$db){
-    die('HAHAHAHAHAHAHA');
-}
-include( 'main.php' );
-//include( 'var.php' );
+        $db = new mysqli( 'localhost' , 'root' , '' , 'tbontb' );
+        if(!$db){
+            die('HAHAHAHAHAHAHA');
+        }
+        include( 'main.php' );
+        //include( 'var.php' );
 
-$main = new main();
-
+        $main = new main();?>
 

@@ -50,8 +50,8 @@ class dete{
     function liste(){
         $results = $this->sql_liste();
         ?>
-        <table border=1 width="400">
-            <tr><td>ID</td><td>NOM</td><td>CLASSE</td><td>Action</td></tr>
+        <table border=1 width="400" class="table table-hover">
+            <tr><td>#</td><td>FIRSTNAME</td><td>NAME</td><td>BET</td></tr>
             <?php
             while( $row = $results->fetch_assoc()){
                 ?>
@@ -65,6 +65,7 @@ class dete{
             }
             ?>
         </table>
+        </div>
         <a href="index.php?p=perso.ajout">+</a>
 
     <?php
