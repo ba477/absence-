@@ -51,6 +51,7 @@ class dete{
         $results = $this->sql_liste();
         ?>
         <table border=1 width="400" class="table table-hover">
+        <h4>Who's gonna be there.... or not?</h4>
             <tr><td>#</td><td>FIRSTNAME</td><td>NAME</td><td>BET</td></tr>
             <?php
             while( $row = $results->fetch_assoc()){
