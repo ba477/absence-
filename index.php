@@ -10,6 +10,21 @@
     <body>
     <h1>Bet my presence.com</h1>
     <div class="col-md-6 col-md-offset-3">
+        <table class="table table-hover">
+            <h4>How much have you already spent?</h4>
+            <tr>
+                <td>TO WHOM?</td>
+                <td>WHEN?</td>
+                <td>HOW MUCH?</td>
+            </tr>
+            <tr>
+                <td>Mélina</td>
+                <td>June, 28th 2015</td>
+                <td>1,00€</td>
+            </tr>
+        </table>
+    </div>
+    <div class="col-md-6 col-md-offset-3">
         <?php
 
         $db = new mysqli( 'localhost' , 'root' , '' , 'tbontb' );
